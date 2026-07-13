@@ -1,13 +1,41 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin: 12px 50px;
+    align-items: center;
+    padding: 15px 60px;
+    position: relative;
+    z-index: 2;
+}
+.registerBtn{
+    text-decoration: none;
+    background-color: #2563eb;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.overlay{
+    position: absolute;
+
+
+    width: 99%;
+    height: 700px; 
+
+
+    background-color: rgba(0,0,0,0.60);
+}
+
+.registerBtn:hover{
+    background-color: #1d4ed8;
 }
 nav .top{
-    margin-top: 10px;
+    
     justify-content: space-between;
     color: gray;
-    width: 40%;
+    width: 30%;
 }
 nav .top a{
     margin: 10px;
@@ -30,11 +58,7 @@ nav .top a{
 
      
 }
-.heroContent {
-    color: white;
-    max-width: 800px;
-    padding: 20px;
-}
+
 
 .heroContent{
     display: flex;
@@ -42,6 +66,11 @@ nav .top a{
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
+    z-index: 2;
+    color: white;
+    max-width: 800px;
+    padding: 20px;
 }
 .heroContent h1 {
     font-size: 4rem;
@@ -79,7 +108,7 @@ nav .top a{
 }
 
 .speakers{
-    width: 90%;
+    width: 85%;
     margin: 60px auto;
 }
 
@@ -104,7 +133,7 @@ nav .top a{
 .card{
     width: 48%;
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 10px;
     margin-bottom: 25px;
     background-color: white;
 }
