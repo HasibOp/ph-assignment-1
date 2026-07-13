@@ -77,3 +77,69 @@ nav .top a{
     color: #d1d5db;
     margin-bottom: 35px;
 }
+
+.speakers{
+    width: 90%;
+    margin: 60px auto;
+}
+
+.speakers h2{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+
+
+
+.speakerContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+
+.card{
+    width: 48%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    background-color: white;
+}
+
+
+
+
+.card img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+
+
+.cardContent{
+    padding: 15px;
+}
+
+.cardContent span{
+    color: #2563eb;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.cardContent h3{
+    font-size: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.cardContent p{
+    font-size: 14px;
+    color: gray;
+}
