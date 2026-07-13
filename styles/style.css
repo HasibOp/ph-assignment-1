@@ -27,12 +27,15 @@ nav .top a{
     justify-content: center;
     align-items: center;
     text-align: center;
+
+     
 }
 .heroContent {
     color: white;
     max-width: 800px;
     padding: 20px;
 }
+
 .heroContent{
     display: flex;
     flex-direction: column;
